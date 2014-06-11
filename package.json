@@ -1,0 +1,32 @@
+{
+  "name": "uspsvalidate",
+  "version": "0.1.1",
+  "description": "Simple tool to use the USPS address validation API (requires USER ID)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taxilian/uspsvalidate.git"
+  },
+  "keywords": [
+    "usps",
+    "address",
+    "api",
+    "xml"
+  ],
+  "author": "Richard Bateman <taxilian@gmail.com>",
+  "license": "new BSD",
+  "bugs": {
+    "url": "https://github.com/taxilian/uspsvalidate/issues"
+  },
+  "homepage": "https://github.com/taxilian/uspsvalidate",
+  "dependencies": {
+    "xml-writer": "^1.4.1",
+    "xml2js": "^0.4.4",
+    "q": "^1.0.1",
+    "underscore": "^1.6.0",
+    "request": "^2.36.0"
+  }
+}
